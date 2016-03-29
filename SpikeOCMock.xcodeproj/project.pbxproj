@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02710A3BD641C6D8535E3F41 /* Pods_SpikeOCMockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C5C803CDC1941FC6F24D9A /* Pods_SpikeOCMockTests.framework */; };
 		E4F376E81CAABB6800756E18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F376E71CAABB6800756E18 /* main.m */; };
 		E4F376EB1CAABB6800756E18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F376EA1CAABB6800756E18 /* AppDelegate.m */; };
 		E4F376EE1CAABB6800756E18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F376ED1CAABB6800756E18 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		E4F376F61CAABB6800756E18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F376F41CAABB6800756E18 /* LaunchScreen.storyboard */; };
 		E4F377011CAABB6900756E18 /* SpikeOCMockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F377001CAABB6900756E18 /* SpikeOCMockTests.m */; };
 		E4F3770C1CAABB6900756E18 /* SpikeOCMockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F3770B1CAABB6900756E18 /* SpikeOCMockUITests.m */; };
+		E4F3771B1CAAC5F100756E18 /* SOCNetworkInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F3771A1CAAC5F100756E18 /* SOCNetworkInspector.m */; };
+		E4F3771E1CAAC67400756E18 /* SOCReachablity.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F3771D1CAAC67400756E18 /* SOCReachablity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13D5DACB8AB8DE9591E62375 /* Pods-SpikeOCMockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpikeOCMockTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpikeOCMockTests/Pods-SpikeOCMockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1C5C803CDC1941FC6F24D9A /* Pods_SpikeOCMockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpikeOCMockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBE9A3C6D97224CBFFA3124 /* Pods-SpikeOCMockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpikeOCMockTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpikeOCMockTests/Pods-SpikeOCMockTests.release.xcconfig"; sourceTree = "<group>"; };
 		E4F376E31CAABB6800756E18 /* SpikeOCMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpikeOCMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F376E71CAABB6800756E18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4F376E91CAABB6800756E18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,10 @@
 		E4F377071CAABB6900756E18 /* SpikeOCMockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpikeOCMockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F3770B1CAABB6900756E18 /* SpikeOCMockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpikeOCMockUITests.m; sourceTree = "<group>"; };
 		E4F3770D1CAABB6900756E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4F377191CAAC5F100756E18 /* SOCNetworkInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOCNetworkInspector.h; sourceTree = "<group>"; };
+		E4F3771A1CAAC5F100756E18 /* SOCNetworkInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOCNetworkInspector.m; sourceTree = "<group>"; };
+		E4F3771C1CAAC67400756E18 /* SOCReachablity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOCReachablity.h; sourceTree = "<group>"; };
+		E4F3771D1CAAC67400756E18 /* SOCReachablity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOCReachablity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02710A3BD641C6D8535E3F41 /* Pods_SpikeOCMockTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		392A705BE7F0E8FA243F8C03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13D5DACB8AB8DE9591E62375 /* Pods-SpikeOCMockTests.debug.xcconfig */,
+				DFBE9A3C6D97224CBFFA3124 /* Pods-SpikeOCMockTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ADC94AC23035AE457C6957E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1C5C803CDC1941FC6F24D9A /* Pods_SpikeOCMockTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E4F376DA1CAABB6800756E18 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				E4F376FF1CAABB6900756E18 /* SpikeOCMockTests */,
 				E4F3770A1CAABB6900756E18 /* SpikeOCMockUITests */,
 				E4F376E41CAABB6800756E18 /* Products */,
+				392A705BE7F0E8FA243F8C03 /* Pods */,
+				ADC94AC23035AE457C6957E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +140,10 @@
 				E4F376F41CAABB6800756E18 /* LaunchScreen.storyboard */,
 				E4F376F71CAABB6800756E18 /* Info.plist */,
 				E4F376E61CAABB6800756E18 /* Supporting Files */,
+				E4F377191CAAC5F100756E18 /* SOCNetworkInspector.h */,
+				E4F3771A1CAAC5F100756E18 /* SOCNetworkInspector.m */,
+				E4F3771C1CAAC67400756E18 /* SOCReachablity.h */,
+				E4F3771D1CAAC67400756E18 /* SOCReachablity.m */,
 			);
 			path = SpikeOCMock;
 			sourceTree = "<group>";
@@ -164,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4F377131CAABB6900756E18 /* Build configuration list for PBXNativeTarget "SpikeOCMockTests" */;
 			buildPhases = (
+				7C3AD498781FF5A53F9B9D1D /* Check Pods Manifest.lock */,
 				E4F376F81CAABB6900756E18 /* Sources */,
 				E4F376F91CAABB6900756E18 /* Frameworks */,
 				E4F376FA1CAABB6900756E18 /* Resources */,
+				2A405B93427E7DAD73969785 /* Embed Pods Frameworks */,
+				5126E2B1FAECA9F54A188F0B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +302,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A405B93427E7DAD73969785 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpikeOCMockTests/Pods-SpikeOCMockTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5126E2B1FAECA9F54A188F0B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpikeOCMockTests/Pods-SpikeOCMockTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C3AD498781FF5A53F9B9D1D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4F376DF1CAABB6800756E18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -272,6 +357,8 @@
 			files = (
 				E4F376EE1CAABB6800756E18 /* ViewController.m in Sources */,
 				E4F376EB1CAABB6800756E18 /* AppDelegate.m in Sources */,
+				E4F3771B1CAAC5F100756E18 /* SOCNetworkInspector.m in Sources */,
+				E4F3771E1CAAC67400756E18 /* SOCReachablity.m in Sources */,
 				E4F376E81CAABB6800756E18 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +520,7 @@
 		};
 		E4F377141CAABB6900756E18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13D5DACB8AB8DE9591E62375 /* Pods-SpikeOCMockTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SpikeOCMockTests/Info.plist;
@@ -445,6 +533,7 @@
 		};
 		E4F377151CAABB6900756E18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFBE9A3C6D97224CBFFA3124 /* Pods-SpikeOCMockTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SpikeOCMockTests/Info.plist;
@@ -496,6 +585,7 @@
 				E4F377121CAABB6900756E18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4F377131CAABB6900756E18 /* Build configuration list for PBXNativeTarget "SpikeOCMockTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +594,7 @@
 				E4F377151CAABB6900756E18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4F377161CAABB6900756E18 /* Build configuration list for PBXNativeTarget "SpikeOCMockUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +603,7 @@
 				E4F377181CAABB6900756E18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
